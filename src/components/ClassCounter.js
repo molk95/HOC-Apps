@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 export class ClassCounter extends Component {
     state={
-        counter:0
+        count:0
     }
     icrementCount = ()=> {
         this.setState({
@@ -12,7 +12,7 @@ export class ClassCounter extends Component {
     render() {
         return (
             <div>
-                <button onClick={this.icrementCount}>+</button> {this.state.count}
+                <button onClick={this.icrementCount}>+</button> Count {this.state.count}
             </div>
         )
     }
