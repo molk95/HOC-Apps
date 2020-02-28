@@ -3,7 +3,7 @@ import React from 'react';
 import './App.css';
 // import ClassCounter from './components/ClassCounter';
 // import HookCounter from './components/HookCounter';
-import HookCounterTwo from './components/HookCounterTwo';
+import HookCounterTwo from './components/hook/HookCounterTwo';
 
 function App() {
   return (
