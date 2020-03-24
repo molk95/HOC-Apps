@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
-import HookCounterFour from './components/hook/HookCounterFour';
+
+// import ClassCounter from './components/class/ClassCounter';
+import { HookCounterOne } from './components/hook/HookCounterOne';
 
 
 
@@ -8,7 +10,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-     <HookCounterFour />
+     {/* <ClassCounter /> */}
+     <HookCounterOne />
       </header>
     </div>
   );
